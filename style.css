@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(253, 253, 253);
+}
+#heading{
+    text-align: center;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px gray, 0px 0px 5px rgb(255, 86, 86);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(83, 83, 83);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgb(51, 51, 51);
+}
+#photo img{
+    height: 180px;
+    width: 150px;
+    float: right;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    margin-top: 50px;
+}
+#photo h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(104, 104, 104);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#photo{
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 15px;
+}
+#Info{
+    margin-top: 50px;
+}
+#Info p{
+    margin-left:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+#Info hr{
+    margin-top: 50px;
+    height: 2px;
+    border: 0px;
+    color: black;
+    background-color: black;
+}
